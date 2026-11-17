@@ -1,0 +1,27 @@
+{
+ "_doc": "Quem e quem no motor das tarefas. 'id' e o id da tabela usuarios do sistema (Usuarios > lista). Os papeis apontam para uma pessoa: troque aqui quando a equipe crescer (ex.: a outra advogada assume a producao), sem mexer em codigo. Variaveis ESC_USUARIO_<CHAVE>_ID no .env sobrescrevem o id.",
+ "_pendente": "Os NOMES e as OABs das associadas saem do bloco de assinatura das pecas reais dela (duas contestacoes de set/2026) - nao foram inventados. Falta so o E-MAIL de cada uma e quem de fato revisa e protocola no dia a dia: PEDIR_NO_KICKOFF (19/11). Ate la os papeis ficam na titular, que e como o escritorio trabalha hoje (a captacao e a revisao passam todas por ela).",
+ "pessoas": {
+  "titular": {"id": 1, "nome": "Juliana Ramos de Freitas", "oab": "OAB/DF 35.929", "email": "julianafreitas@jf-advocacia.com"},
+  "saggin": {"id": 2, "nome": "Juliana Saggin Britto", "oab": "OAB/DF 64.330", "email": "PEDIR_NO_KICKOFF"},
+  "carla": {"id": 4, "nome": "Carla Cristina F. Arruda", "oab": "OAB/DF 51.058", "email": "PEDIR_NO_KICKOFF"},
+  "automacao": {"id": 3, "nome": "Assistente IA (automacao)"}
+ },
+ "papeis": {
+  "titular": "titular",
+  "financeiro": "titular",
+  "revisora": "titular",
+  "producao": "titular",
+  "controladoria_humana": "titular",
+  "protocolo": "titular",
+  "dona_das_tarefas": "titular",
+  "automacao": "automacao"
+ },
+ "apelidos": {
+  "dra": "titular",
+  "juliana": "titular",
+  "assistente": "automacao",
+  "ia": "automacao",
+  "controladoria": "automacao"
+ }
+}

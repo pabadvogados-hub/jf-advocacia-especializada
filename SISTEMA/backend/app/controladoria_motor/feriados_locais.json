@@ -1,0 +1,14 @@
+{
+ "_doc": "Feriados estaduais e por comarca. Editavel pela controladoria sem deploy. Datas fixas no formato MM-DD. Feriados moveis (Pascoa/Corpus) sao calculados no codigo. Chave UF ou \"UF:comarca\" (comarca normalizada sem acento, minuscula). CONFERIR no calendario oficial do TJDFT a cada virada de ano e acrescentar os municipais das comarcas onde houver processo.",
+ "_trocado_em": "13/11/2026 - a base vinha so com SP (feriado estadual 09/07 e aniversario da capital 25/01), que nao vale para este escritorio. A sede e em Brasilia/DF e ha processo tambem na Paraiba (Comarca Integrada de Bayeux e Santa Rita).",
+ "_pendente": "CONFERIR NO KICKOFF (19/11): feriados forenses do TJDFT e, se o escritorio seguir com processo na PB, os do TJPB e das comarcas. Nao preenchi a PB por nao ter fonte conferida - preferi deixar vazio a chutar data de prazo.",
+ "UF": {
+  "DF": [
+   "11-30"
+  ]
+ },
+ "COMARCA": {},
+ "_doc_UF": "DF 11-30 = Dia do Evangelico, feriado do Distrito Federal. O 21/04 (Fundacao de Brasilia) coincide com Tiradentes, que ja e nacional e esta no codigo.",
+ "_doc_datas": "DATAS: feriado de um ano so (adiamento ou suspensao por ato do tribunal), chave UF ou \"UF:comarca\", data ISO AAAA-MM-DD -> descricao com a normativa que a sustenta.",
+ "DATAS": {}
+}
